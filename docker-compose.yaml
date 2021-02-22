@@ -4,7 +4,7 @@ services:
     image: direckthit/fvtt-docker:latest
     container_name: fvtt
     ports: 
-      - 30000:30000
+      - 30005:30005
     volumes:
       - /path/to/your/foundry/data/directory:/data/foundryvtt
       - /path/to/your/foundry/zip/file:/host
